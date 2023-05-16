@@ -1,0 +1,28 @@
+#
+# Blog settings
+#
+sitename: Westness.cc
+baseurl: https://www.westness.cc/
+description: Vanity domain name
+keywords: Westness,Family
+
+#
+# Jekyll settings
+#
+permalink: /:year/:month/:day/:title/
+paginate: 3
+paginate_path: "page/:num"
+category_dir: categories
+timezone: America/Chicago
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+feed:
+  path: atom.xml
+
+include: [".well-known"]
