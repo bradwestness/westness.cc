@@ -7,7 +7,7 @@ layout: nil
   <link href="https://www.westness.cc/atom.xml" rel="self"/>
   <link href="https://www.westness.cc"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>https://www.bradwestness.com/</id>
+  <id>https://www.westness.cc/</id>
   <author>
     <name>Brad Westness</name>
     <email>brad@westness.cc</email>
